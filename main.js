@@ -14,5 +14,9 @@ app.get('/test', (req, res) => {
 })
 
 app.get('/test1', (req, res) => {
-  return res.status(200).send("Testing Node.js Deployment on Heroku....")
+  return res.status(200).send("Testing Node.js Deployment on Heroku....1")
+})
+
+app.get('/test2', (req, res) => {
+  return res.status(200).send("Testing Node.js Deployment on Heroku....2")
 })
