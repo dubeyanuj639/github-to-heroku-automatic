@@ -20,3 +20,11 @@ app.get('/test1', (req, res) => {
 app.get('/test2', (req, res) => {
   return res.status(200).send("Testing Node.js Deployment on Heroku....2")
 })
+
+app.get('/test3', (req, res) => {
+  return res.status(200).send("Testing Node.js Deployment on Heroku....3")
+})
+
+app.get('/test4', (req, res) => {
+  return res.status(200).send("Testing Node.js Deployment on Heroku....4")
+})
